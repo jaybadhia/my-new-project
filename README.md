@@ -1,24 +1,23 @@
-# Project Title (e.g., Smart Waste Sorter)
+# Smart Waste Sorter
 Building AI course project
 
 ## Summary
-An AI-powered image classifier that helps users sort waste correctly into recycling categories using a smartphone camera.  
-(This summary should be about 250 characters.)
+An AI-powered system that helps people sort waste into correct recycling bins using image recognition.
 
 ## Background
-Explain the problem (e.g., people often confuse recycling categories), its scale, and your motivation to solve it.
+People often throw recyclable items into the wrong bin, causing environmental harm. This project aims to reduce waste contamination using AI.
 
 ## Data and AI techniques
-Mention your data source (e.g., labeled images of trash) and AI method (e.g., image classification using CNNs).
+The model uses image data of waste items (plastic, paper, metal, etc.). I plan to use a Convolutional Neural Network (CNN) to classify items into categories.
 
 ## How is it used
-Describe who will use it (e.g., households or city waste departments) and in what context.
+It can be used via a mobile app. The user takes a photo of the item, and the app tells them the correct bin.
 
 ## Challenges
-Mention any limitations (e.g., poor accuracy in low light, model bias, etc.).
+It may struggle with rare items or poor lighting. Data collection might be time-consuming.
 
 ## What next
-Talk about possible future improvements (e.g., adding multilingual support, integrating with waste apps).
+The app could expand to support more regions and languages, and improve accuracy over time.
 
 ## Acknowledgments
-Give credit to any datasets, libraries, mentors, or inspirations you used.
+Inspired by the Elements of AI course. Thanks to open-source image datasets and the AI community.
